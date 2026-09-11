@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef>
+    <defName>Make_Rotwort</defName>
+    <label>make rotwort</label>
+    <description>Make Rotwort from meat.</description>
+    <jobString>Making Rotwort.</jobString>
+    <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+	<skillRequirements>
+			<Cooking>8</Cooking>
+	</skillRequirements>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1000</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+          </categories>
+        </filter>
+        <count>25</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>MeatRaw</li>
+      </categories>
+    </fixedIngredientFilter>
+    <products>
+      <Rotwort>5</Rotwort>
+    </products>
+	<researchPrerequisite>Rotmeth</researchPrerequisite>
+  </RecipeDef>
+  
+	<ProcessorFramework.ProcessDef>
+		<defName>Rotmeth</defName>
+		<thingDef>Rotmeth</thingDef>
+		<ingredientFilter>
+			<thingDefs>
+				<li>Rotwort</li>
+			</thingDefs>
+		</ingredientFilter>
+		<processDays>9</processDays> <!-- in days, a day is 60,000 ticks -->
+		<capacityFactor>1.0</capacityFactor>
+		<efficiency>1.0</efficiency>
+		<usesTemperature>true</usesTemperature>
+		<temperatureSafe>-1.0~32.0</temperatureSafe>
+		<temperatureIdeal>7.0~32.0</temperatureIdeal>
+		<ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
+		<speedBelowSafe>0.1</speedBelowSafe>
+		<speedAboveSafe>1.0</speedAboveSafe>
+		<filledGraphicSuffix></filledGraphicSuffix>
+		<usesQuality>false</usesQuality>
+		<color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
+		<customLabel></customLabel>
+		<destroyChance>0.0</destroyChance>
+	</ProcessorFramework.ProcessDef>
+
+</Defs>

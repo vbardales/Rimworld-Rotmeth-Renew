@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <Rotmeth.label>hydromel de viande</Rotmeth.label>
+  <Rotmeth.description>Une spécialité bosmer. Le rotmeth est une boisson alcoolisée tirée de viande fermentée. En abuser mène aux trous noirs, et à la longue à la dépendance.</Rotmeth.description>
+  <Rotmeth.ingestible.ingestCommandString>Boire {0}</Rotmeth.ingestible.ingestCommandString>
+  <Rotmeth.ingestible.ingestReportString>Boit {0}.</Rotmeth.ingestible.ingestReportString>
+  <Rotmeth.tools.bottle.label>bouteille</Rotmeth.tools.bottle.label>
+  <Rotmeth.tools.neck.label>goulot</Rotmeth.tools.neck.label>
+
+  <Rotwort.label>moût de viande</Rotwort.label>
+  <Rotwort.description>Du rotmeth avant fermentation. Il doit passer par un tonneau avant de devenir buvable.</Rotwort.description>
+</LanguageData>

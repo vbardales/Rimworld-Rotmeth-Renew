@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ResearchProjectDef>
+    <defName>Rotmeth</defName>
+    <label>rotmeth</label>
+    <description>Allows the brewing of Rotmeth, an alcoholic drink made from fermented meat. The fermenting process removes the ability for humans to distinguish the type of meat used to make the drink.</description>
+    <baseCost>600</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewX>1</researchViewX>
+    <researchViewY>1.5</researchViewY>
+	<prerequisites>
+      <li>Brewing</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+</Defs>

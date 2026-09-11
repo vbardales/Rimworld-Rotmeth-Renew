@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <packageId>nelim.rotmeth</packageId>
+  <name>Rotmeth Renew</name>
+  <author>troopersmith1, winggar - 1.6 port by nelim</author>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <url>https://github.com/vbardales/Rimworld-Rotmeth-Renew</url>
+  <description>An alcohol fermented from meat, from the Elder Scrolls series.
+
+Rotmeth was the ritual drink of the Bosmer of Valenwood, who had sworn never to eat anything plant-based. It finds its use on the Rim too: fermenting disguises the origin of the meat, which lets unscrupulous leaders make use of human and insect meat without their colonists ever finding out.
+
+Research rotmeth after brewing, make the wort from 25 raw meat of any kind at the vanilla brewery, then let it ferment nine days in a fermenting barrel.
+
+REQUIRES [SYR] Processor Framework
+
+The fermenting barrel is that framework's building, not the vanilla one, and the nine-day process is added to it by patch. Without the framework the wort has nowhere to go. Use the version maintained by ViralReaction, which supports 1.6:
+https://steamcommunity.com/workshop/filedetails/?id=3210544395
+
+A 1.6 port of a mod that stopped at 1.3, taken over without changes. The original defNames are kept, so a save moves between the two without losing anything, and the original is declared incompatible below.
+
+Available in English and French.
+
+CREDIT
+
+The drink, its recipe and its artwork are troopersmith1 and winggar's work, from a request by daemonfool on the Ludeon forums.
+
+No licence was declared, and the mod has not been updated since the 1.3 cycle. It is republished here under the usual convention for abandoned mods: full credit, and removal on request. If either author would rather this port did not exist, say so and it comes down.
+
+If I do not answer within a reasonable time after being contacted, anyone may freely update this or any other of my mods, including publishing a continuation of it. All credit must be preserved.
+
+Original mod: https://steamcommunity.com/sharedfiles/filedetails/?id=2039474581</description>
+  <modDependencies>
+    <li>
+      <packageId>syrchalis.processor.framework</packageId>
+      <displayName>[SYR] Processor Framework</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/3210544395</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>syrchalis.processor.framework</li>
+  </loadAfter>
+  <incompatibleWith>
+    <li>Troopersmith1.Rotmeth</li>
+  </incompatibleWith>
+</ModMetaData>
