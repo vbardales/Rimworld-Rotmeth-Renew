@@ -37,3 +37,11 @@ PROMPT_*.md
 Thumbs.db
 desktop.ini
 .DS_Store
+evidence/
+Tests/Pickle/Evidence/
+Art/.render/
+*.dds
+**/Source/obj/
+**/Source/bin/
+**/Source/**/obj/
+**/Source/**/bin/
