@@ -2,6 +2,14 @@
 
 All notable changes to this mod are documented here.
 
+## [Unreleased]
+
+### Changed
+
+- Name and description now carry the (unofficial) status and the UNOFFICIAL notice.
+- Description no longer names a RimWorld version and ends with the source code link.
+- Removed an empty `customLabel` from the process definition (no visible change).
+
 ## [1.0.0] — 2026-09-05
 
 First release. Port of troopersmith1 and winggar's **Rotmeth** to RimWorld 1.6.

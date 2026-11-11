@@ -18,10 +18,10 @@ Research rotmeth after brewing, make the wort from 25 raw meat of any kind at th
 
 REQUIRES [SYR] Processor Framework
 
-The fermenting barrel is that framework's building, not the vanilla one, and the nine-day process is added to it by patch. Without the framework the wort has nowhere to go. Use the version maintained by ViralReaction, which supports 1.6:
+The fermenting barrel is that framework's building, not the vanilla one, and the nine-day process is added to it by patch. Without the framework the wort has nowhere to go. Use the version maintained by ViralReaction, which supports the latest RimWorld version:
 https://steamcommunity.com/workshop/filedetails/?id=3210544395
 
-A 1.6 port of a mod that stopped at 1.3, taken over without changes. The original defNames are kept, so a save moves between the two without losing anything, and the original is declared incompatible below.
+A port to the latest RimWorld version of a mod that stopped at 1.3, taken over without changes. The original defNames are kept, so a save moves between the two without losing anything, and the original is declared incompatible below.
 
 Available in English and French.
 
@@ -33,7 +33,9 @@ No licence was declared, and the mod has not been updated since the 1.3 cycle. I
 
 If I do not answer within a reasonable time after being contacted, anyone may freely update this or any other of my mods, including publishing a continuation of it. All credit must be preserved.
 
-Original mod: https://steamcommunity.com/sharedfiles/filedetails/?id=2039474581</description>
+Original mod: https://steamcommunity.com/sharedfiles/filedetails/?id=2039474581
+
+[url=https://github.com/vbardales/Rimworld-Rotmeth-Renew]Source code on GitHub[/url]</description>
   <modDependencies>
     <li>
       <packageId>syrchalis.processor.framework</packageId>

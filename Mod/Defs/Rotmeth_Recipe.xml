@@ -57,7 +57,6 @@
 		<filledGraphicSuffix></filledGraphicSuffix>
 		<usesQuality>false</usesQuality>
 		<color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
-		<customLabel></customLabel>
 		<destroyChance>0.0</destroyChance>
 	</ProcessorFramework.ProcessDef>
 
