@@ -5,7 +5,7 @@ repo: Rimworld-Rotmeth-Renew
 remote: https://github.com/vbardales/Rimworld-Rotmeth-Renew.git
 visibility: public
 detached: yes
-workflow_stage: makeSources
+workflow_stage: code[1.0.1]
 licence: silent
 licence_at: "2026-11-11: no licence in the original mod (troopersmith1 and winggar, 2039474581), its files, About.xml or Steam page; its repository (troopersmith1/Rotmeth-Continued, GitHub) holds no licence either; declares 1.1 to 1.3 only, so abandoned by the 1.6 criterion"
 upstream_mod_remotes:
@@ -21,7 +21,7 @@ tested_on: never
 remaining:
   - "2026-11-11: feature winggar.rotmeth (1780182516, declares 1.6, same defNames) not in incompatibleWith: decide and declare at declareDependencies (4.b)"
   - "2026-11-11: unverified never seen running"
-protocols_read_sha: 8f825f745b3f350b8a3cbd030fb72f0aaa82c065
+protocols_read_sha: 0c8b45910063b1cadc700728a2f1f01950853789
 updated: 2026-11-11
 ---
 
