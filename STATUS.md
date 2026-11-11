@@ -7,7 +7,7 @@ packageId:    nelim.rotmeth
 repo:         Rimworld-Rotmeth-Renew
 visibility:   public
 detached:     no
-stage:
+workflow_stage: setupRepo
 licence:      silent
 licence_at:   the files, the About and the page; the upstream base is itself a revival
 dependencies: declared
@@ -15,9 +15,14 @@ showcase:     none
 tested_on:
 workshop:
 remaining:
-  - unverified: never seen running
+  - "2026-11-11: defect 1.d (unofficial) suffix and UNOFFICIAL paragraph missing in About.xml, README title, STATUS mod"
+  - "2026-11-11: defect 1.f no git remote configured"
+  - "2026-11-11: defect 1.h STATUS.md not built from template (remote, settings_audit, upstream_mod_remotes missing)"
+  - "2026-11-11: unverified 1.a duplicate check (Search-Workshop) not run, needs Virginie ok"
+  - "2026-11-11: unverified never seen running"
 session:      maj:        2026-09-12, releve automatique
-updated:      2026-09-12, automatic sweep
+updated:      2026-11-11, replay-audit
+protocols_read_sha: 05112c1dfec9b4e37677cbbe9fa706a591e7859c
 ---
 
 # Rotmeth Renew — status
