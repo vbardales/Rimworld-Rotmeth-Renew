@@ -20,6 +20,7 @@ published: yes
 tested_on: never
 remaining:
   - "2026-11-11: feature winggar.rotmeth (1780182516, declares 1.6, same defNames) not in incompatibleWith: decide and declare at declareDependencies (4.b)"
+  - "2026-11-11: feature 4.a verify Processor Framework use in sources; 4.b create Mod/About/OptionalCompat.xml; 4.c-4.e check LoadFolders, load order, guarded patches; 4.g record dependencies in STATUS.md (workshop_required_items: n/a or done)"
   - "2026-11-11: unverified never seen running"
 protocols_read_sha: 0c8b45910063b1cadc700728a2f1f01950853789
 updated: 2026-11-11
