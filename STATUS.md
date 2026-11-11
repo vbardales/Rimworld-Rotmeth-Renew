@@ -18,7 +18,7 @@ remaining:
   - "2026-11-11: defect 1.d (unofficial) suffix and UNOFFICIAL paragraph missing in About.xml, README title, STATUS mod"
   - "2026-11-11: defect 1.f no git remote configured"
   - "2026-11-11: defect 1.h STATUS.md not built from template (remote, settings_audit, upstream_mod_remotes missing)"
-  - "2026-11-11: defect 1.a equivalent mod exists: winggar Rotmeth 1780182516 (packageId winggar.rotmeth, declares 1.6, same defNames Rotmeth/Rotwort); not in incompatibleWith; checked 2026-11-11: winggar version has no Rotwort, no Processor Framework 9-day barrel process, no French, different recipe and values, so it does not cover ours; owner decision pending"
+  - "2026-11-11: feature winggar.rotmeth (1780182516, declares 1.6, same defNames) not in incompatibleWith: decide and declare at declareDependencies (4.b)"
   - "2026-11-11: unverified never seen running"
 session:      maj:        2026-09-12, releve automatique
 updated:      2026-11-11, replay-audit
