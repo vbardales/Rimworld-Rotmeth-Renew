@@ -1,4 +1,7 @@
-# Rotmeth Renew
+# Rotmeth Renew (unofficial)
+
+> UNOFFICIAL. This mod is published without the original author's explicit consent.
+> If the original author contacts me to request its removal, I undertake to take it down promptly.
 
 Port of **troopersmith1 and winggar's Rotmeth** to RimWorld 1.6.
 
